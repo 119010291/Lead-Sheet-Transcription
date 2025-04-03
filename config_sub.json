@@ -1,0 +1,16 @@
+{
+    "model": "transformer",
+    "src_max_len": 384,
+    "hacks": ["pos_emb", "4layers",
+    "octave_invariant_loss",
+    "pitch_class_loss"],
+    "batch_size": 1,
+    "lr": 0.0001,
+    "epochs": 10,
+    "seed": 42,
+    "train_index": "/scratch/dw3180/sheetsage_project/output/preprocessed_output_refined/valid_uids.txt",  
+    "val_index": "/scratch/dw3180/sheetsage_project/output/preprocessed_output_refined/valid_uids.txt",
+    "test_index": "/scratch/dw3180/sheetsage_project/output/preprocessed_output/test_uids.txt",
+    "npz_dir": "/scratch/dw3180/sheetsage_project/output/preprocessed_output_refined"  
+}
+  
